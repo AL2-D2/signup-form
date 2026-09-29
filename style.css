@@ -12,12 +12,39 @@ body {
 }
 
 .image-and-logo-container {
-    width: 25%;    
+    width: 25%;
     height: 100vh;
-    background-image: url(images/background-bridge.avif);       
+    background-image: url(images/background-bridge.avif);
+}
+
+.container {
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .form-container {
-    width: 75%;    
-    height: 100vh;
+    min-height: 70%;
+}
+
+.text {
+    width: 70%;
+
+}
+
+.margin-l {
+    margin-left: 2.5rem;
+}
+
+fieldset{
+    margin:0;
+    padding: 0;
+    border: none;
+    background: #fff;
+}
+
+.container{
+    background: rgb(242, 242, 242);
 }
