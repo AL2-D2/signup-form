@@ -6,3 +6,19 @@
     font-style: normal;
     font-display: swap;
 }
+
+body {
+    display: flex;
+}
+
+.image-and-logo-container {
+    width: 25%;
+    border: 1px solid red;
+    height: 100vh;
+}
+
+.form-container {
+    width: 75%;
+    border: 1px solid red;
+    height: 100vh;
+}
