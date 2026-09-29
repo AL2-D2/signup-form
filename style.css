@@ -7,6 +7,12 @@
     font-display: swap;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
 }
@@ -15,8 +21,41 @@ body {
     width: 25%;
     height: 100vh;
     background-image: url(images/background-bridge.avif);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 
+.logo-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 12rem;
+    background: rgba(0, 0, 0, 0.37);
+    width: 100%;
+    color: #fff;
+}
+
+.logo-container img {
+    max-width: 125px;
+    max-height: 125px;
+}
+
+.logo-container h1 {
+    font-family: "Always in the Star";
+    font-size: 3.5rem;    
+}
+
+.copyright {
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+.copyright * {
+    color: #ffffffc3;    
+    font-size: 0.8rem;
+}
 .container {
     width: 75%;
     height: 100vh;
