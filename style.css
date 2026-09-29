@@ -12,13 +12,12 @@ body {
 }
 
 .image-and-logo-container {
-    width: 25%;
-    border: 1px solid red;
+    width: 25%;    
     height: 100vh;
+    background-image: url(images/background-bridge.avif);       
 }
 
 .form-container {
-    width: 75%;
-    border: 1px solid red;
+    width: 75%;    
     height: 100vh;
 }
