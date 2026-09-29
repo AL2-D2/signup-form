@@ -10,7 +10,16 @@
 </head>
 
 <body>
-    <div class="image-and-logo-container"></div>
+    <div class="image-and-logo-container">
+        <div class="logo-container">
+            <img src="images/odin-lined.png">
+            <h1>ODIN</h1>
+        </div>
+
+        <div class="copyright">
+            <span>Photo by <a href="https://unsplash.com/@kalaniparker" target="_blank">Kellen Riggin</a>on <a href="https://unsplash.com/" target="_blank">Unsplash</a></span>
+        </div>
+    </div>
     <div class="container">
         <div class="form-container">
             <div class="text margin-l">
@@ -49,8 +58,11 @@
 
                     <label for="confirm-password">
                         <span>CONFIRM PASSWORD</span>
-                        <input id="confirm-password" type="password">
-                    </label>
+                        <input id="confirm-password" type="password" name="user-password-confirmation">
+                    </label>  
+                    
+                    <button type="submit" class="submit-btn">Create Account</button>
+                    <span>Already have an account? <a href="#">Log in</a></span>
                 </fieldset>
 
             </form>
