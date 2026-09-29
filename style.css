@@ -31,22 +31,51 @@ body {
 
 .text {
     width: 70%;
-
 }
 
 .margin-l {
     margin-left: 2.5rem;
 }
-form{
+
+fieldset {
     background: #fff;
-}
-fieldset{
-    margin:0;
+    margin: 0;
     padding: 0;
     border: none;
-    
+    display: flex;
+    flex-direction: column;
 }
 
-.container{
+label,
+input {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
     background: rgb(242, 242, 242);
+}
+
+fieldset div {
+    display: flex;
+    gap: 75px;
+}
+
+.submit-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.7rem;
+}
+
+.submit-btn {
+    max-width: 200px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(48, 75, 25, 0.75);
+    color: #fff;
+}
+
+.submit-container span {
+    margin-top: 1.7rem;
 }
