@@ -45,17 +45,19 @@ body {
 
 .logo-container h1 {
     font-family: "Always in the Star";
-    font-size: 3.5rem;    
+    font-size: 3.5rem;
 }
 
 .copyright {
     margin-top: auto;
     margin-bottom: 15px;
 }
+
 .copyright * {
-    color: #ffffffc3;    
+    color: #ffffffc3;
     font-size: 0.8rem;
 }
+
 .container {
     width: 75%;
     height: 100vh;
@@ -69,15 +71,17 @@ body {
 }
 
 .text {
-    width: 70%;
+    width: 50%;
     margin-bottom: 5rem !important;
 }
 
 .margin-l {
     margin-left: 2.5rem;
 }
-.form-container > div h1 {
+
+.form-container>div h1 {
     margin-bottom: 2.5rem;
+    font-size: 1.4rem;
 }
 
 
@@ -125,4 +129,41 @@ fieldset div {
 
 .submit-container span {
     margin-top: 1.7rem;
+}
+
+input,label{
+    display: block;
+}
+input {
+    outline:none;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;          
+    padding: 2px;    
+    height: 30px;
+}
+
+input:focus {
+    border-color: rgba(19, 81, 250, 0.88);
+    box-shadow: 0.01rem 0.01rem 2px rgba(50, 102, 247, 0.88);         
+}
+input:invalid{
+    border-color: red;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+}
+
+fieldset div{
+    display: inline;
+}
+
+.flex{
+    display:flex;
+}
+
+label{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(53, 52, 52);
 }
