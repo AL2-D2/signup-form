@@ -70,11 +70,16 @@ body {
 
 .text {
     width: 70%;
+    margin-bottom: 5rem !important;
 }
 
 .margin-l {
     margin-left: 2.5rem;
 }
+.form-container > div h1 {
+    margin-bottom: 2.5rem;
+}
+
 
 fieldset {
     background: #fff;
@@ -83,6 +88,9 @@ fieldset {
     border: none;
     display: flex;
     flex-direction: column;
+    padding: 2rem;
+    border-radius: 1px;
+    box-shadow: 0 5px 10px 1px #0000001f;
 }
 
 label,
