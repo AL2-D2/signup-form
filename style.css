@@ -18,7 +18,7 @@ body {
 }
 
 .image-and-logo-container {
-    min-width: 25vw;
+    width: 25%;
     height: 100vh;
     background-image: url(images/background-bridge.avif);
     display: flex;
@@ -36,17 +36,16 @@ body {
     background: rgba(0, 0, 0, 0.37);
     width: 100%;
     color: #fff;
-    height: 150px;
 }
 
 .logo-container img {
-    width: clamp(100px, 110px, 200px);
-    max-height: 110px;
+    max-width: 125px;
+    max-height: 125px;
 }
 
 .logo-container h1 {
     font-family: "Always in the Star";
-    font-size: 2rem; 
+    font-size: 3.5rem;    
 }
 
 .copyright {
@@ -58,7 +57,7 @@ body {
     font-size: 0.8rem;
 }
 .container {
-    max-width: 75vw;
+    width: 75%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -126,13 +125,4 @@ fieldset div {
 
 .submit-container span {
     margin-top: 1.7rem;
-}
-
-.submit-btn:hover{
-    cursor: pointer;
-}
-
-.form-container > div h1{
-    font-size: 1rem;
-    margin-bottom: 2rem;
 }
