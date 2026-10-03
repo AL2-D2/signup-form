@@ -132,6 +132,7 @@ fieldset > h2{
     border: none;
     background-color: rgba(48, 75, 25, 0.75);
     color: #fff;
+    box-shadow: 0 0 10px #00000054;
 }
 
 .submit-container span {
