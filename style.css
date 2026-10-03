@@ -92,8 +92,8 @@ fieldset {
     border: none;
     display: flex;
     flex-direction: column;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     border-radius: 1px;
     box-shadow: 0 5px 10px 1px #0000001f;
 }
@@ -111,6 +111,12 @@ input {
 fieldset div {
     display: flex;
     gap: 75px;
+}
+
+fieldset > h2{
+    font-weight: 500;
+    color: rgba(26, 26, 26, 0.909);
+    margin-bottom: 30px;
 }
 
 .submit-container {
@@ -141,6 +147,7 @@ input {
     border-radius: 5px;          
     padding: 2px;    
     height: 30px;
+    width: 200px;
 }
 
 input:focus {
