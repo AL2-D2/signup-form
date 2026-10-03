@@ -60,7 +60,7 @@
                                 <span>PHONE NUMBER</span>
                             </label>
                             <input required id="phone-number" name="user-phone-number"
-                                pattern="[0-9]{4}[0-9]{3}[0-9]{3}" maxlength="10" type="tel" class="margin-l">
+                                pattern="[0-9]{4}[0-9]{3}[0-9]{3}" maxlength="10" type="tel" class="margin-l" placeholder="e.g. 1111222333">
                         </div>
                     </div>
                     <div class="flex">
@@ -68,14 +68,14 @@
                             <label for="password" class="margin-l">
                                 <span>PASSWORD</span>
                             </label>
-                            <input minlength="7" maxlength="15" required id="password" name="user-password"
+                            <input title="Password must at least contain 7 characters (15 max)." minlength="7" maxlength="15" required id="password" name="user-password"
                                 type="password" class="margin-l">
                         </div>
                         <div>
                             <label for="confirm-password" class="margin-l">
                                 <span>CONFIRM PASSWORD</span>
                             </label>
-                            <input minlength="7" maxlength="15" required id="confirm-password" type="password"
+                            <input title="Password must at least contain 7 characters (15 max)." minlength="7" maxlength="15" required id="confirm-password" type="password"
                                 name="user-password-confirmation" class="margin-l">
                         </div>
                     </div>
