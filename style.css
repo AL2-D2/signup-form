@@ -92,7 +92,8 @@ fieldset {
     border: none;
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     border-radius: 1px;
     box-shadow: 0 5px 10px 1px #0000001f;
 }
